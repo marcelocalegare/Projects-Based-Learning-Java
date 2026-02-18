@@ -8,13 +8,20 @@ public class exEstruturaRepeticao01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int pin = 0;
-        while (pin != 2000){
+        while (true){
             System.out.print("Digite sua senha: ");
             pin = scanner.nextInt();
-            System.out.println("Senha Incorreta!");
+            if (pin != 2000){
+                System.out.println("Senha Incorreta!");
+            }
+            else if (pin == 2000){
+                System.out.println("Senha Correta!");
+                break;
+            }
+
         }
 
-        System.out.println("Senha Correta!");
+
         scanner.close();
 
     }

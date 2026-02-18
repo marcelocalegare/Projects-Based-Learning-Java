@@ -16,7 +16,7 @@ public class exEstruturaRepeticao03 {
         int opcao;
 
         while (true){
-            System.out.print("1 - Alcool\n2 - Gasolina\n3 - Diesel\n\nDIGITE O COMBUSTIVEL ABASTECIDO: ");
+            System.out.print("1 - Alcool\n2 - Gasolina\n3 - Diesel\n4 - EXIT\n\nDIGITE O COMBUSTIVEL ABASTECIDO: ");
             opcao = scanner.nextInt();
 
             if (opcao == 1){
