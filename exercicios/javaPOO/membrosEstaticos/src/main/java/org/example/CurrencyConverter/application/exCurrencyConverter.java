@@ -1,5 +1,5 @@
-package org.example.application;
-import org.example.entities.CurrencyConverter;
+package org.example.CurrencyConverter.application;
+import org.example.CurrencyConverter.entities.CurrencyConverter;
 
 import java.util.Scanner;
 

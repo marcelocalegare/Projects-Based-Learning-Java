@@ -1,4 +1,4 @@
-package org.example.entities;
+package org.example.CurrencyConverter.entities;
 
 public class CurrencyConverter {
     public static double liquidDollars;
