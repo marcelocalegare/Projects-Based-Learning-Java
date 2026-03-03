@@ -10,6 +10,9 @@ Repositório dedicado aos meus estudos e à minha evolução na linguagem Java.
 3. Estruturas Condicionais
 4. Estruturas de Repetição
 5. Funções
+6. Java POO
+7. Metodos e Atributos
+8. Construtores, This, Sobrecarga, Encapsulamento
 
 ---
 
