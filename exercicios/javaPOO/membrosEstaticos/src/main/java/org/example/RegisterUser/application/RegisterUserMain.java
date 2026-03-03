@@ -23,6 +23,7 @@ public class RegisterUserMain {
 
         user1.showData();
         user2.showData();
+        System.out.println("Total instances created: " + RegisterUser.getCount());
 
 
 

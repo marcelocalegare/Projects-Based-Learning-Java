@@ -5,9 +5,11 @@ public class RegisterUser {
     public int age;
     private static int counterInstances = 0;
 
-    public void Counter(){
+    // Construtor que incrementa o contador a cada instância criada
+    public RegisterUser() {
         counterInstances++;
     }
+
 
     public static int getCount(){
         return counterInstances;
@@ -16,7 +18,6 @@ public class RegisterUser {
     public void showData(){
         System.out.printf("Name: %s\n", name);
         System.out.printf("Age: %d\n", age);
-        System.out.printf("Counter Instances: %d\n", getCount());
         System.out.println("=-=-=-=-=-=-=");
     }
 
