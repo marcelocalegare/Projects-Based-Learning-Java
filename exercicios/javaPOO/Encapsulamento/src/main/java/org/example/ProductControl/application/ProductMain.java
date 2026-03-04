@@ -18,5 +18,12 @@ public class ProductMain {
 
         product.showData();
 
+        System.out.print("Enter the amount you wish to withdraw from inventory: ");
+        int amountToRemove = scanner.nextInt();
+        product.removeStock(amountToRemove);
+
+        System.out.println("Product Update: ");
+        product.showData();
+
     }
 }
