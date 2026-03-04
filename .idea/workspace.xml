@@ -5,68 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e9ca7b8-5828-4a7a-8462-8757d80c07b3" name="Alterações" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/02-exercicios2-estrutura-condicional.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-condicional/src/main/java/org/example/exEstruturaCondicional08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/02-exercicios1-estrutura-sequencial.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/exEntradaDados01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/exEntradaDados02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/exEntradaDados03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/exEntradaDados04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/exEntradaDados05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/exEntradaDados06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/saidaDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estrutura-sequencial/src/main/java/org/example/tiposVariaveis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/02-exercicios3-estrutura-while.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/02-exercicios4-estrutura-for.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/src/main/java/org/example/exEstruturaRepeticao01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/src/main/java/org/example/exEstruturaRepeticao02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/src/main/java/org/example/exEstruturaRepeticao03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/src/main/java/org/example/exEstruturaRepeticao04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/src/main/java/org/example/exEstruturaRepeticao05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/src/main/java/org/example/exEstruturaRepeticao06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/for/src/main/java/org/example/exEstruturaRepeticao07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/src/main/java/org/example/exEstruturaRepeticao01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/src/main/java/org/example/exEstruturaRepeticao02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/estruturas-repeticao/while/src/main/java/org/example/exEstruturaRepeticao03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/src/main/java/org/example/exFuncao01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/src/main/java/org/example/exFuncao02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/src/main/java/org/example/exFuncao03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/funcoes/src/main/java/org/example/exFuncao04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,20 +24,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Marcelo Calegare/OneDrive/Documentos/JAVA",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marcelo Calegare/OneDrive/Documentos/JAVA&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="JAVA" />
