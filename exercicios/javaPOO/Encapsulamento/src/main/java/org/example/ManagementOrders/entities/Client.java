@@ -11,6 +11,10 @@ public class Client {
         this.email = email;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
+
     public void showClient(){
         System.out.println("Name: " + this.name);
         System.out.println("CPF: " + this.cpf);
