@@ -6,6 +6,9 @@ public class evenAvarages {
         Scanner scanner = new Scanner(System.in);
         int tamVetor;
         double mediaVetor = 0;
+        double result = 0;
+        int contadorPar = 0;
+        boolean confirmaPar = false;
 
         System.out.print("Digite o tamanho do vetor: ");
         tamVetor = scanner.nextInt();
@@ -19,14 +22,29 @@ public class evenAvarages {
 
         for (int i = 0; i < tamVetor; i++) {
            if (numeros[i] % 2 == 0){
-               mediaVetor += numeros[i];
-           }
-           else if(numeros[i] % 2 != 0){
-               System.out.println("NENHUM PAR!");
+                confirmaPar = true;
            }
         }
-        mediaVetor = mediaVetor / tamVetor;
-        System.out.println("MEDIA DOS PARES: " + mediaVetor);
+
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=");
+
+        if (!confirmaPar){
+            System.out.println("NENHUM NUMERO É PAR!");
+        }
+        else{
+            for (int i = 0; i < tamVetor; i++) {
+                if (numeros[i] % 2 == 0){
+                    mediaVetor += numeros[i];
+                    contadorPar += 1;
+                }
+            }
+            result = mediaVetor / contadorPar;
+
+            System.out.printf("MEDIA DOS PARES: %.2f", result);
+        }
+
+
+
 
 
 
