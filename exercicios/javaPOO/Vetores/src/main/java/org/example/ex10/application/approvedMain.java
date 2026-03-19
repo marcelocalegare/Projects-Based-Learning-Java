@@ -12,9 +12,11 @@ public class approvedMain {
         tamVetor = scanner.nextInt();
 
         approvedClass[] client = new approvedClass[tamVetor];
+        double[] media = new double[tamVetor];
 
         for (int i = 0; i < tamVetor; i++) {
-            System.out.print("Digite o nome do % aluno: ");
+            System.out.printf("Digite o nome do %d aluno: ", i + 1);
+            scanner.nextLine();
             String name = scanner.nextLine();
             System.out.print("Digite a primeira nota: ");
             double nota1 = scanner.nextDouble();
@@ -23,6 +25,20 @@ public class approvedMain {
 
             client[i] = new approvedClass(name, nota1, nota2);
 
+        }
+
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=");
+
+        // Aprovados
+        for (int i = 0; i < tamVetor; i++) {
+            media[i] = (client[i].getNota1() + client[i].getNota2()) / 2;
+        }
+
+        System.out.println("Alunos Aprovados: ");
+        for (int i = 0; i < tamVetor; i++) {
+            if (media[i] >= 6){
+                System.out.println(client[i].getName());
+            }
         }
 
 
