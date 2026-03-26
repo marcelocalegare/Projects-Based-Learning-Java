@@ -1,6 +1,5 @@
 package com.marcelocalegare.listas.application;
 import com.marcelocalegare.listas.entities.Cadastro;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
