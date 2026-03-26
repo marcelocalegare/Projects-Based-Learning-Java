@@ -13,6 +13,7 @@ Repositório dedicado aos meus estudos e à minha evolução na linguagem Java.
 6. Java POO
 7. Metodos e Atributos
 8. Construtores, This, Sobrecarga, Encapsulamento
+9. Comportamento de memória, arrays, listas
 
 ---
 
