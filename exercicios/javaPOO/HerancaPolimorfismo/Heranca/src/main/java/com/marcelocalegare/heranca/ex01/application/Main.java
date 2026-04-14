@@ -1,33 +1,36 @@
 package com.marcelocalegare.heranca.ex01.application;
-import com.marcelocalegare.heranca.ex01.entities.Usuario;
+import com.marcelocalegare.heranca.ex01.entities.Funcionario;
+import com.marcelocalegare.heranca.ex01.entities.Gerente;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int opcao;
+        String tempNome;
+        double tempSalario;
 
-        // Menu
-        System.out.print("Menu\n1 - Cadastrar o usuário\n2 - Cadastar um novo livro\n3 - Mostrar usuários\n4 - Mostrar livros\n0 - Exit\n\nDigite uma opção: ");
-        opcao = scanner.nextInt();
+        // Funcionário
+        System.out.print("Digite o nome do funcionario: ");
+        tempNome = scanner.nextLine();
+        System.out.print("Digite o salario do funcionario: ");
+        tempSalario = scanner.nextDouble();
+        Funcionario funcionario = new Funcionario(tempNome, tempSalario);
 
-        if (opcao == 1){
-            System.out.println("Cadastro de usuário");
-            System.out.print("Digite seu nome: ");
-            String tempNome = scanner.nextLine();
+        // Gerente
+        System.out.print("Digite o nome do Gerente: ");
+        scanner.nextLine();
+        tempNome = scanner.nextLine();
+        System.out.print("Digite o salario do Gerente: ");
+        tempSalario = scanner.nextDouble();
+        Gerente gerente = new Gerente(tempNome, tempSalario);
 
-            System.out.print("Digite seu cpf: ");
-            int tempCpf = scanner.nextInt();
-
-            System.out.print("Digite seu e-mail: ");
-            String tempEmail = scanner.nextLine();
-
-            Usuario user = new Usuario(tempNome, tempCpf, tempEmail);
-
-        }
-
-
+        // Visualizar dados
+        System.out.println("Funcionario:");
+        funcionario.showData();
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=");
+        System.out.println("Gerente:");
+        gerente.showData();
 
 
     }
