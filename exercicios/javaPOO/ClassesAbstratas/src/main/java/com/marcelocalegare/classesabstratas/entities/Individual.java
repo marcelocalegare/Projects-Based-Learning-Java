@@ -18,17 +18,19 @@ public final class Individual extends TaxPayer{
 
     @Override
     public final double tax() {
-        if (getAnualIncome() <= 20000){
-            return getAnualIncome() + getAnualIncome() * 0.15;
+        double finalTax = 0;
+        if (getAnualIncome() < 20000){
+            finalTax = getAnualIncome() * 0.15;
             if (getHealthExpenditures() > 1){
-                return getAnualIncome() - (getHealthExpenditures() / 2);
+                 finalTax = finalTax - (getHealthExpenditures() * 0.50);
             }
         }
-        else if (getAnualIncome() >= 20000){
-            return getAnualIncome() + getAnualIncome() * 0.25;
+        else if (getAnualIncome() > 20000){
+            finalTax = getAnualIncome() * 0.25;
             if (getHealthExpenditures() > 1){
-                return getAnualIncome() - (getHealthExpenditures() * 0.50);
+                finalTax = finalTax - (getHealthExpenditures() * 0.50);
             }
         }
+        return finalTax;
     }
 }

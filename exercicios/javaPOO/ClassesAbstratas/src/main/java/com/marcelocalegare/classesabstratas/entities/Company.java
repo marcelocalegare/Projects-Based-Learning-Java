@@ -19,10 +19,10 @@ public final class Company extends TaxPayer{
     @Override
     public final double tax() {
         if (numberOfEmployees > 10){
-            return getAnualIncome() + getAnualIncome() * 0.14;
+            return getAnualIncome() * 0.14;
         }
         else {
-            return getAnualIncome() + getAnualIncome() * 0.16;
+            return getAnualIncome() * 0.16;
         }
     }
 }
