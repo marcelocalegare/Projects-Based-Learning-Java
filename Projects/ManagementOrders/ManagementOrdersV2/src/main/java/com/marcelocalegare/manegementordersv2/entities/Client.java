@@ -1,4 +1,5 @@
 package com.marcelocalegare.manegementordersv2.entities;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Client {

@@ -21,7 +21,6 @@ public class Main {
         System.out.println("=-=-=-=-=-=-=-=-=");
         for (int i = 0; i < tamListClients; i++) {
             clients.add(new Client().registerClient(i));
-
         }
 
         System.out.print("Enter CPF client: ");

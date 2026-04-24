@@ -14,6 +14,11 @@ Repositório dedicado aos meus estudos e à minha evolução na linguagem Java.
 7. Metodos e Atributos
 8. Construtores, This, Sobrecarga, Encapsulamento
 9. Comportamento de memória, arrays, listas
+10. Enums
+11. Herança
+12. Polimorfismo
+13. Classes Abstratas
+14. Tratamento de exceções
 
 ---
 
