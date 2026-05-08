@@ -1,10 +1,10 @@
-package com.marcelocalegare.first_spring_app;
+package com.marcelocalegare.meu_primeiro_springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FirstSpringAppApplicationTests {
+class MeuPrimeiroSpringbootApplicationTests {
 
 	@Test
 	void contextLoads() {
